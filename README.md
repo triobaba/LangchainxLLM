@@ -19,35 +19,35 @@ Before running the application, ensure you have the following prerequisites inst
    git clone https://github.com/triobaba/langchainXLLM
 Navigate to the project directory:
 
-'''shell
+```shell
 Copy code
    cd Langchain-LLM-PDF-QA
    
 Install the required Python dependencies:
 
-'''shell
+```shell
 Copy code
    poetry install
 If you don't have Poetry installed, you can install it using:
 
-'''shell
+```shell
 Copy code
    pip install poetry
 Start a Poetry shell:
 
-'''shell
+```shell
 Copy code
    poetry shell
 Please create an .env file from .env.sample once the application is installed. Edit the .env file with your OpenAI organization and OpenAI key:
 
-'''shell
+```shell
 Copy code
    cp .env.sample .env
 Usage
 Uploading a File
 Start the application:
 
-'''shell
+```shell
 Copy code
    chainlit run app/app.py -w
 Access the application in your web browser (by default, it runs on http://localhost:5000).
